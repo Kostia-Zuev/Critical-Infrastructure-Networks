@@ -7,7 +7,7 @@ POWER GRIDS
 
 Filename: 'uspowergrid.mat'
 
-Format: edge list represented by m-by-2 matrix
+Format: edge list represented by m-by-2 matrix, each row [i,j] represents a link between nodes i and j. 
 
 Size: n=4941 nodes, m=6594 links
 
