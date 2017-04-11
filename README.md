@@ -6,6 +6,7 @@ POWER GRIDS
 1. The US Power Grid
 
 Filename: 'uspowergrid.mat'
+
 Format: edge list represented by m-by-2 matrix
 Size: n=4941 nodes, m=6594 links
 
