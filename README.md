@@ -3,7 +3,7 @@ Network data repository
 
 ### Power Grids
 
-1. The US Power Grid
+#### 1. US Power Grid
 
 - Filename: 'uspowergrid.mat'
 
