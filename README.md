@@ -21,7 +21,7 @@ You can use the following BibTeX citation:
 
 #### 1. US Power Grid
 
-- File: 'uspowergrid.mat', MATLAB formatted data.
+- Filename: 'uspowergrid.mat'
 
 - Format: edge list represented by m-by-2 matrix, each row [i,j] represents a link between nodes i and j. 
 
