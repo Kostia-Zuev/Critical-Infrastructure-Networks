@@ -3,7 +3,8 @@ Network data repository
 
 [![DOI](https://zenodo.org/badge/87771758.svg)](https://zenodo.org/badge/latestdoi/87771758)
 
-If you find this network data collection useful in your work, I encourage you to cite this repository. You can use the following BibTeX citation:
+If you find this network data collection useful in your work, I encourage you to cite the repository. 
+You can use the following BibTeX citation:
 
 ```
 @misc{KZ_CIN_2017_545662,
