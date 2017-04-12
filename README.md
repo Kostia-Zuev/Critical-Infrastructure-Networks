@@ -38,3 +38,5 @@ The transmission lines can be directed and weighted (differentiated based on the
 Originally compiled by D. Watts and S. Strogatz and used in 
 D.J. Watts and  S.H. Strogatz (1998) "Collective dynamics of “small-world” networks," Nature 393, 440-442.
 Availalbe online at: https://toreopsahl.com/datasets/#uspowergrid
+
+![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/us-western-states/powergridUSWS.png)
