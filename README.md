@@ -19,7 +19,7 @@ You can use the following BibTeX citation:
 
 ### Power Grids
 
-#### 1. US Power Grid
+#### 1. Western States Power Grid of the United States
 
 - Filename: 'uspowergrid.mat'
 
