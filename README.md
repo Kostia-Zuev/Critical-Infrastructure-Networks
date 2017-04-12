@@ -1,5 +1,8 @@
-# Critical Infrastructure Networks
-Network data repository 
+# Critical Infrastructure Networks 
+Network data repository
+
+[![DOI](https://zenodo.org/badge/87771758.svg)](https://zenodo.org/badge/latestdoi/87771758)
+
 
 ### Power Grids
 
