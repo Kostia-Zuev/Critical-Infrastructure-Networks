@@ -21,11 +21,11 @@ You can use the following BibTeX citation:
 
 #### 1. US Power Grid
 
-- Filename: 'uspowergrid.mat'
+- File: 'uspowergrid.mat', MATLAB formatted data.
 
 - Format: edge list represented by m-by-2 matrix, each row [i,j] represents a link between nodes i and j. 
 
-- Size: n=4941 nodes, m=6594 links
+- Size: n=4941 nodes, m=6594 links.
 
 - Description: 
 An undirected, unweighted network representing the topology of the Western States Power Grid of the United States. 
