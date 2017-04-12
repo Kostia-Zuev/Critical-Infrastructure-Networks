@@ -3,6 +3,18 @@ Network data repository
 
 [![DOI](https://zenodo.org/badge/87771758.svg)](https://zenodo.org/badge/latestdoi/87771758)
 
+If you find this network data collection useful in your work, I encourage you to cite this repository. You can use the following BibTeX citation:
+
+```
+@misc{KZ_CIN_2017_545662,
+  author       = {Konstantin M. Zuev},
+  title        = {Kostia-Zuev/Critical-Infrastructure-Networks v1.0},
+  month        = apr,
+  year         = 2017,
+  doi          = {10.5281/zenodo.545662},
+  url          = {https://doi.org/10.5281/zenodo.545662}
+}
+```
 
 ### Power Grids
 
