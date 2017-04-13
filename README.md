@@ -1,7 +1,7 @@
 # Critical Infrastructure Networks 
 Network data collection 
 
-[![DOI](https://zenodo.org/badge/87771758.svg)](https://zenodo.org/badge/latestdoi/87771758)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.545861.svg)](https://doi.org/10.5281/zenodo.545861)
 
 ## Table of Contents
 
@@ -60,11 +60,10 @@ You can use the following BibTeX citation:
 ```
 @misc{KZ_CIN_2017_545662,
   author       = {Konstantin M. Zuev},
-  title        = {Kostia-Zuev/Critical-Infrastructure-Networks v1.0},
+  title        = {Kostia-Zuev/Critical-Infrastructure-Networks v1.1},
   month        = apr,
   year         = 2017,
-  doi          = {10.5281/zenodo.545662},
-  url          = {https://doi.org/10.5281/zenodo.545662}
+  doi          = {10.5281/zenodo.545861},
+  url          = {https://doi.org/10.5281/zenodo.545861}
 }
 ```
-
