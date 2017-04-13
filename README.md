@@ -1,24 +1,16 @@
 # Critical Infrastructure Networks 
-Network data repository
+Network data collection 
 
 [![DOI](https://zenodo.org/badge/87771758.svg)](https://zenodo.org/badge/latestdoi/87771758)
 
-## Citing CIN repository
-If you find this network data collection useful in your work, I encourage you to cite the repository. 
-You can use the following BibTeX citation:
+## Table of Contents
 
-```
-@misc{KZ_CIN_2017_545662,
-  author       = {Konstantin M. Zuev},
-  title        = {Kostia-Zuev/Critical-Infrastructure-Networks v1.0},
-  month        = apr,
-  year         = 2017,
-  doi          = {10.5281/zenodo.545662},
-  url          = {https://doi.org/10.5281/zenodo.545662}
-}
-```
+* [Data Format](#data-format)
+* [Power Grids](#power-grids)
+  - [Western States Power Grid of the United States](#wsus)
+* [Citing CIN repository](#citing-cin-repository)
 
-## Data Format
+## <a name="data-format"></a>Data Format
 Each network is available in three different formats: `.mat`, `.cvs`, and `.txt`.
 * `.mat` file contains at least three variables:
   - A is a sparse n-by-n [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix), where n is the number of nodes (vertices). If a network is undirected and unweighted, then A is symmetric, A(i,j)=1 if there is a link (edge) between nodes i and j, and A(i,j)=0 otherwise. If a network is directed, then A is not necessarily symmetric and A(i,j)=1 if there is a link from i to j (and zero otherwise). If a network is weighted, then A(i,j) is the weight of the link from i to j (a zero weight means no link).  
@@ -26,9 +18,9 @@ Each network is available in three different formats: `.mat`, `.cvs`, and `.txt`
   - G is a [MATLAB graph object](https://www.mathworks.com/help/matlab/graph-and-network-algorithms.html) representing the network. 
 * `.cvs` and `.txt` files contain an edge list, which is the same as L above.
 
-## Power Grids
+## <a name="power-grids"></a>Power Grids
 
-### 1. Western States Power Grid of the United States
+### <a name="wsus"></a>1. Western States Power Grid of the United States
 
 - Path: [Critical-Infrastructure-Networks/power-grids/us-western-states/](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/tree/master/power-grids/us-western-states)
    
@@ -60,3 +52,19 @@ Average shortest path length | 18.989
 
 
 ![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/us-western-states/powergridUSWS.png)
+
+## <a name="citing-cin-repository"></a>Citing CIN repository
+If you find this network data collection useful in your work, I encourage you to cite the repository. 
+You can use the following BibTeX citation:
+
+```
+@misc{KZ_CIN_2017_545662,
+  author       = {Konstantin M. Zuev},
+  title        = {Kostia-Zuev/Critical-Infrastructure-Networks v1.0},
+  month        = apr,
+  year         = 2017,
+  doi          = {10.5281/zenodo.545662},
+  url          = {https://doi.org/10.5281/zenodo.545662}
+}
+```
+
