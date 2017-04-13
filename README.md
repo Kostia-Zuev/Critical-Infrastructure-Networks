@@ -31,19 +31,7 @@ Each network is available in three different formats: `.mat`, `.cvs`, and `.txt`
 ### 1. Western States Power Grid of the United States
 
 - Path: [Critical-Infrastructure-Networks/power-grids/us-western-states/](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/tree/master/power-grids/us-western-states)
-  
-* Basic Statistics:
-
-Property | Value
--------- | -------------
-Number of nodes | 4941
-Number of links  | 6594
-Density | 5.403e-04
-Average degree | 2.669
-Average clustering coefficient | 0.106
-Number of connected components | 1
-Diameter (longest shortest path) | 46 
-
+   
 * Description: 
 An undirected, unweighted network representing the topology of the Western States Power Grid of the United States. 
 Nodes represent transformers, substations, and generators. Links represent high-voltage transmission lines.
@@ -55,5 +43,20 @@ The transmission lines can be directed and weighted (where weight describe their
 Originally compiled by D. Watts and S. Strogatz and used in 
 D.J. Watts and  S.H. Strogatz (1998) "Collective dynamics of “small-world” networks," Nature 393, 440-442.
 Availalbe online at: https://toreopsahl.com/datasets/#uspowergrid
+
+* Basic [Network Properties](https://en.wikipedia.org/wiki/Network_science#Network_properties)
+
+Property | Value
+-------- | -------------
+Number of nodes | 4941
+Number of links  | 6594
+Density | 5.403e-04
+Maximum degree | 19
+Average degree | 2.669
+Average clustering coefficient | 0.106
+Number of connected components | 1
+Diameter  | 46 
+Average shortest path length | 18.989
+
 
 ![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/us-western-states/powergridUSWS.png)
