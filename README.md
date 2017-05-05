@@ -16,7 +16,7 @@ Each network is available in three different formats: `.mat`, `.cvs`, and `.txt`
   - A is a sparse n-by-n [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix), where n is the number of nodes (vertices). If a network is undirected and unweighted, then A is symmetric, A(i,j)=1 if there is a link (edge) between nodes i and j, and A(i,j)=0 otherwise. If a network is directed, then A is not necessarily symmetric and A(i,j)=1 if there is a link from i to j (and zero otherwise). If a network is weighted, then A(i,j) is the weight of the link from i to j (a zero weight means no link).  
   - E is an edge list. If a network is undirected and unweighted, then E is m-by-2, where m is the number of links and a row [i,j] represents a link between nodes i and j. If a network is directed, then a row [i,j] represents a link from i to j. If a network is weighted, then E is m-by-3, where the 3rd column contains weights. 
   - G is a [MATLAB graph object](https://www.mathworks.com/help/matlab/graph-and-network-algorithms.html) representing the network. 
-* `.cvs` and `.txt` files contain an edge list, which is the same as L above.
+* `.cvs` and `.txt` files contain an edge list, which is the same as E above.
 
 ## <a name="power-grids"></a>Power Grids
 
