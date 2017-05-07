@@ -1,7 +1,7 @@
 # Critical Infrastructure Networks 
 Network data collection 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.545861.svg)](https://doi.org/10.5281/zenodo.545861)
+[![DOI](https://zenodo.org/badge/87771758.svg)](https://zenodo.org/badge/latestdoi/87771758)
 
 ## Table of Contents
 
