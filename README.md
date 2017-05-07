@@ -22,7 +22,7 @@ Each network is available in three different formats: `.mat`, `.cvs`, and `.txt`
 
 ### <a name="wsus"></a>1. Western States Power Grid of the United States
 
-- Path: [Critical-Infrastructure-Networks/power-grids/us-western-states/](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/tree/master/power-grids/us-western-states)
+* Path: [Critical-Infrastructure-Networks/power-grids/us-western-states/](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/tree/master/power-grids/us-western-states)
    
 * Description: 
 An undirected, unweighted network representing the topology of the Western States Power Grid of the United States. 
@@ -52,6 +52,11 @@ Average shortest path length | 18.989
 
 
 ![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/us-western-states/powergridUSWS.png)
+
+### <a name="wsus"></a>2. North American Power Grid
+
+- Path: [Critical-Infrastructure-Networks/power-grids/north-american/](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/tree/master/power-grids/north-american)
+
 
 ## <a name="citing-cin-repository"></a>Citing CIN repository
 If you find this network data collection useful in your work, I encourage you to cite the repository. 
