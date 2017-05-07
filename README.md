@@ -86,6 +86,7 @@ Diameter  | 138
 Average shortest path length | 47.504
 
 ![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/north-american/powergridNA_top.png)
+![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/north-american/powergridNA_geo.png)
 
 
 ## <a name="citing-cin-repository"></a>Citing CIN repository
