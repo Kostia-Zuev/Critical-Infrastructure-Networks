@@ -66,10 +66,26 @@ Average shortest path length | 18.989
 An undirected, unweighted network representing the topology and geography of the North American Power Grid. Nodes represent transformers, substations, and generators. Links represent high-voltage transmission lines.
 
 * Data: 
-In addition to the adjacency matrix A, edge list E, and MATLAB graph object G (see [Data Format](#data-format)), `powergridNA.mat` contains an n-by-3 matrix V describing geographical coordinates of network nodes: V(i,1)=i is the node ID, V(i,2) is the latitude of node i, and V(i,3) is its longitude. `powergridNA_E` and `powergridNA_V` contain E and V in the `.cvs` and `.txt` formats.  
+In addition to the adjacency matrix A, edge list E, and MATLAB graph object G (see [Data Format](#data-format)), `powergridNA.mat` contains an n-by-3 matrix V describing the geographical coordinates of network nodes: V(i,1)=i is the node ID, V(i,2) is the latitude of node i, and V(i,3) is its longitude. Files `powergridNA_E` and `powergridNA_V` contain E and V in the `.cvs` and `.txt` formats.  
     
 * Data Source:
 The network was extracted on March 14, 2016 uing [GridKit](https://github.com/bdw/GridKit), a power grid extraction toolkit.
+
+* Basic [Network Properties](https://en.wikipedia.org/wiki/Network_science#Network_properties)
+
+Property | Value
+-------- | -------------
+Number of nodes |  14990
+Number of links  | 18804
+Density | 1.674e-04
+Maximum degree | 22 
+Average degree | 2.509
+Average clustering coefficient | 0.103
+Number of connected components | 1
+Diameter  | 138
+Average shortest path length | 47.504
+
+![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/north-american/powergridNA_top.png)
 
 
 ## <a name="citing-cin-repository"></a>Citing CIN repository
