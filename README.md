@@ -8,6 +8,7 @@ Network data collection
 * [Data Format](#data-format)
 * [Power Grids](#power-grids)
   - [Western States Power Grid of the United States](#wsus)
+  - [North American Power Grid](#na)
 * [Citing CIN repository](#citing-cin-repository)
 
 ## <a name="data-format"></a>Data Format
@@ -31,6 +32,9 @@ Nodes represent transformers, substations, and generators. Links represent high-
 * Remark: 
 The transmission lines can be directed and weighted (where weight describe their capacity), but this information is not available.
 
+* Data:
+Adjacency matrix A, edge list E, and MATLAB graph object G, as described in [Data Format](#data-format).
+
 * Data Source: 
 Originally compiled by D. Watts and S. Strogatz and used in 
 D.J. Watts and  S.H. Strogatz (1998) "Collective dynamics of “small-world” networks," Nature 393, 440-442.
@@ -53,9 +57,19 @@ Average shortest path length | 18.989
 
 ![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/us-western-states/powergridUSWS.png)
 
-### <a name="wsus"></a>2. North American Power Grid
+### <a name="na"></a>2. North American Power Grid
 
-- Path: [Critical-Infrastructure-Networks/power-grids/north-american/](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/tree/master/power-grids/north-american)
+* Path: 
+[Critical-Infrastructure-Networks/power-grids/north-american/](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/tree/master/power-grids/north-american)
+
+* Description: 
+An undirected, unweighted network representing the topology and geography of the North American Power Grid. Nodes represent transformers, substations, and generators. Links represent high-voltage transmission lines.
+
+* Data: 
+In addition to the adjacency matrix A, edge list E, and MATLAB graph object G (see [Data Format](#data-format)), `powergridNA.mat` contains an n-by-3 matrix V describing geographical coordinates of network nodes: V(i,1)=i is the node ID, V(i,2) is the latitude of node i, and V(i,3) is its longitude. `powergridNA_E` and `powergridNA_V` contain E and V in the `.cvs` and `.txt` formats.  
+    
+* Data Source:
+The network was extracted on March 14, 2016 uing [GridKit](https://github.com/bdw/GridKit), a power grid extraction toolkit.
 
 
 ## <a name="citing-cin-repository"></a>Citing CIN repository
