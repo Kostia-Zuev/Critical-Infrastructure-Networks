@@ -9,6 +9,7 @@ Network data collection
 * [Power Grids](#power-grids)
   - [Western States Power Grid of the United States](#wsus)
   - [North American Power Grid](#na)
+  - [European Power Grid](#eu)
 * [Citing CIN repository](#citing-cin-repository)
 
 ## <a name="data-format"></a>Data Format
@@ -88,6 +89,35 @@ Average shortest path length | 47.504
 ![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/north-american/powergridNA_top.png)
 ![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/north-american/powergridNA_geo.png)
 
+### <a name="eu"></a>3. European Power Grid
+
+* Path: 
+[Critical-Infrastructure-Networks/power-grids/european/](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/tree/master/power-grids/european)
+
+* Description: 
+An undirected, unweighted network representing the topology and geography of the European Power Grid. Nodes represent transformers, substations, and generators. Links represent high-voltage transmission lines.
+
+* Data: 
+In addition to the adjacency matrix A, edge list E, and MATLAB graph object G (see [Data Format](#data-format)), file `powergridEU.mat` contains an n-by-3 matrix V describing the geographical coordinates of network nodes: V(i,1)=i is the node ID, V(i,2) is the latitude of node i, and V(i,3) is its longitude. Files `powergridEU_E` and `powergridEU_V` contain E and V in both `.cvs` and `.txt` formats.
+
+* Data Source:
+The network was extracted on March 14, 2016 uing [GridKit](https://github.com/bdw/GridKit), a power grid extraction toolkit.
+
+* Basic [Network Properties](https://en.wikipedia.org/wiki/Network_science#Network_properties)
+
+Property | Value
+-------- | -------------
+Number of nodes | 13478 
+Number of links  | 16922
+Density | 1.8632e-04
+Maximum degree | 16
+Average degree | 2.511
+Average clustering coefficient | 0.111
+Number of connected components | 1
+Diameter  | 147
+Average shortest path length | 49.505
+
+![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/european/powergridEU_top.png)
 
 ## <a name="citing-cin-repository"></a>Citing CIN repository
 If you find this network data collection useful in your work, I encourage you to cite the repository. 
