@@ -118,6 +118,7 @@ Diameter  | 147
 Average shortest path length | 49.505
 
 ![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/european/powergridEU_top.png)
+![alt tag](https://github.com/Kostia-Zuev/Critical-Infrastructure-Networks/blob/master/power-grids/european/powergridEU_geo.png)
 
 ## <a name="citing-cin-repository"></a>Citing CIN repository
 If you find this network data collection useful in your work, I encourage you to cite the repository. 
