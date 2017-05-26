@@ -125,12 +125,12 @@ If you find this network data collection useful in your work, I encourage you to
 You can use the following BibTeX citation:
 
 ```
-@misc{KZ_CIN_2017_572340,
+@misc{KZ_CIN_2017_583631,
   author       = {Konstantin M. Zuev},
-  title        = {Kostia-Zuev/Critical-Infrastructure-Networks v1.2},
+  title        = {Kostia-Zuev/Critical-Infrastructure-Networks v1.3},
   month        = may,
   year         = 2017,
-  doi          = {10.5281/zenodo.572340},
-  url          = {https://doi.org/10.5281/zenodo.572340}
+  doi          = {10.5281/zenodo.583631},
+  url          = {https://doi.org/10.5281/zenodo.583631}
 }
 ```
